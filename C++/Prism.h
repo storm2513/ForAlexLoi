@@ -18,7 +18,7 @@ using namespace std;
 
 class Prism{
 private:
-    double value, height, squareOfBase;
+    double value, height, squareOfBase, countOfEdges;
     double *lengthOfSides;
     
     double calculateSquareOfBase(){
@@ -38,6 +38,7 @@ private:
         cout << "Объём -- " << value << endl
         << "Площадь основания -- " << squareOfBase << endl
         << "Высота -- " << height << endl;
+        cout << "Количество граней -- " << countOfEdges << endl;
         cout << "Длины сторон основания: ";
         cout << lengthOfSides[0] << ", " << lengthOfSides[1] << ", " << lengthOfSides[2] << endl;
         cout << "--------------------------------" << endl;
@@ -68,6 +69,7 @@ public:
         lengthOfSides = _lengthOfSides;
         squareOfBase = calculateSquareOfBase();
         value = calculateValue();
+        countOfEdges = 5;
     }
     void showMenu(){
         while(true){
