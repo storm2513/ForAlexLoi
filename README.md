@@ -8,4 +8,5 @@ The solution of Alex's task: описать класс призма: объём,
 
 В папочке C++ файлик main.cpp :)
 В папочке Ruby файлик main.rb :)
+В папочке Java файлик Prism.java :)
 Думаю, разберёшься :)
